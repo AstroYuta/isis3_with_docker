@@ -1,0 +1,10 @@
+version: '3'
+services:
+  isis3:
+    build: .
+    image: "astroyuta/isis3"
+    container_name: "isis3"
+    volumes:
+     - ${WORK_SPACE:-default}:/home/workspace
+    ports:
+     - "22000:22"
