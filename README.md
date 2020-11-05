@@ -24,6 +24,9 @@ This is a private repository for crating isis3 environment utilizing the docker.
     ```
     cd C:￥hogehogemoge
     ```
+    このディレクトリにisisのbaseやmissionのデータもすべていれていくことになります
+    ここでdockerコンテナとローカルのファイルの受け渡しも行います
+    ワーキングディレクトリとでも呼びますかね
 
     git repositoryをcloneする
     ```
@@ -37,7 +40,7 @@ This is a private repository for crating isis3 environment utilizing the docker.
     - 起動するか `Dockerテスト実行` のとこに書いてあるやつで確認してください
     
 4. imageのビルドとコンテナの立ち上げ
-    ワークディレクトリを設定する
+    ワーキングディレクトリを設定する
     ```
     dir をうつ
     ディレクトリ: (ここをコピーしておく)    
