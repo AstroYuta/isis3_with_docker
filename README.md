@@ -1,5 +1,5 @@
 # isis3_with_docker
-This is a provate repository for crating isis3 environment utilizing the docker. DO NOT PUBLICLY USE THE REPOSITORY. Please contact shimizu@seed.um.u-tokyo.ac.jp for the usage of this repository.
+This is a private repository for crating isis3 environment utilizing the docker. DO NOT PUBLICLY USE THE REPOSITORY. Please contact shimizu@seed.um.u-tokyo.ac.jp for the usage of this repository.
 
 # 環境の準備 (ざっくり書きます)
 ## Windows
