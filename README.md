@@ -1,6 +1,16 @@
 # isis3_with_docker
 This is a private repository for crating isis3 environment utilizing the docker. DO NOT PUBLICLY USE THE REPOSITORY. Please contact shimizu@seed.um.u-tokyo.ac.jp for the usage of this repository.
 
+# 動作環境
+## Windows
+- MobaXterm Personal Edition v20.5 Build 4502
+- isis 3.10.0
+- powershell
+
+## MacOS
+- XQuartz 2.7.11
+- isis 3.10.0
+
 # 環境の準備 (ざっくり書きます)
 ## Windows
 1. Gitのインストール
