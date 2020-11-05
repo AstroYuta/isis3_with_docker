@@ -33,12 +33,12 @@ RUN . /opt/anaconda3/bin/activate && \
     conda install -c usgs-astrogeology isis=3.10.0 && \
     python $CONDA_PREFIX/scripts/isis3VarInit.py --data-dir=/home/isis3/data  --test-dir=/home/isis3/testData
 
-# download base data
-RUN . /opt/anaconda3/bin/activate && \
-    conda activate isis3 && \
-    cd $ISIS3DATA && \
-    rsync -azv --delete --partial isisdist.astrogeology.usgs.gov::isis3data/data/base . && \
-    rsync -azv --delete --partial isisdist.astrogeology.usgs.gov::isis3data/data/hayabusa .
+# # download base data
+# RUN . /opt/anaconda3/bin/activate && \
+#     conda activate isis3 && \
+#     cd $ISIS3DATA && \
+#     rsync -azv --delete --partial isisdist.astrogeology.usgs.gov::isis3data/data/base . && \
+#     rsync -azv --delete --partial isisdist.astrogeology.usgs.gov::isis3data/data/hayabusa .
     
 EXPOSE 22
 CMD ["/usr/sbin/sshd", "-D"]
